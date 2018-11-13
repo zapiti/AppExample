@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D8070D8D218F7AD800667205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070D8C218F7AD800667205 /* AppDelegate.swift */; };
-		D8070D8F218F7AD800667205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070D8E218F7AD800667205 /* ViewController.swift */; };
-		D8070D92218F7AD800667205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8070D90218F7AD800667205 /* Main.storyboard */; };
+		D8070D8F218F7AD800667205 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070D8E218F7AD800667205 /* MainViewController.swift */; };
 		D8070D94218F7ADA00667205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8070D93218F7ADA00667205 /* Assets.xcassets */; };
 		D8070D97218F7ADA00667205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8070D95218F7ADA00667205 /* LaunchScreen.storyboard */; };
 		D8070DA2218F7ADA00667205 /* AppExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DA1218F7ADA00667205 /* AppExampleTests.swift */; };
 		D8070DAD218F7ADA00667205 /* AppExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DAC218F7ADA00667205 /* AppExampleUITests.swift */; };
+		D8070DD0218F7CE400667205 /* RadioGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC8218F7CE400667205 /* RadioGroupCell.swift */; };
+		D8070DD1218F7CE400667205 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC9218F7CE400667205 /* SwitchCell.swift */; };
+		D8070DD2218F7CE400667205 /* EditTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DCA218F7CE400667205 /* EditTextCell.swift */; };
+		D8070DD3218F7CE400667205 /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DCC218F7CE400667205 /* RadioButtonController.swift */; };
+		D8070DD4218F7CE400667205 /* EditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DCD218F7CE400667205 /* EditText.swift */; };
+		D8070DD6218F7CE400667205 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DCF218F7CE400667205 /* RadioButton.swift */; };
+		D8070DD7218F7D8B00667205 /* ViewControllerForTab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC3218F7C0900667205 /* ViewControllerForTab1.swift */; };
+		D8070DD8218F7D8B00667205 /* ViewControllerForTab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC5218F7C0900667205 /* ViewControllerForTab3.swift */; };
+		D8070DD9218F7D8B00667205 /* ViewControllerForTab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC6218F7C0900667205 /* ViewControllerForTab2.swift */; };
+		D8070DDA218F7D8B00667205 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8070DC4218F7C0900667205 /* CustomTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +45,7 @@
 /* Begin PBXFileReference section */
 		D8070D89218F7AD800667205 /* AppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8070D8C218F7AD800667205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8070D8E218F7AD800667205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8070D91218F7AD800667205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8070D8E218F7AD800667205 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D8070D93218F7ADA00667205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8070D96218F7ADA00667205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8070D98218F7ADA00667205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		D8070DA8218F7ADA00667205 /* AppExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8070DAC218F7ADA00667205 /* AppExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExampleUITests.swift; sourceTree = "<group>"; };
 		D8070DAE218F7ADA00667205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8070DC3218F7C0900667205 /* ViewControllerForTab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab1.swift; sourceTree = "<group>"; };
+		D8070DC4218F7C0900667205 /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		D8070DC5218F7C0900667205 /* ViewControllerForTab3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab3.swift; sourceTree = "<group>"; };
+		D8070DC6218F7C0900667205 /* ViewControllerForTab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTab2.swift; sourceTree = "<group>"; };
+		D8070DC8218F7CE400667205 /* RadioGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioGroupCell.swift; sourceTree = "<group>"; };
+		D8070DC9218F7CE400667205 /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		D8070DCA218F7CE400667205 /* EditTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTextCell.swift; sourceTree = "<group>"; };
+		D8070DCC218F7CE400667205 /* RadioButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButtonController.swift; sourceTree = "<group>"; };
+		D8070DCD218F7CE400667205 /* EditText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditText.swift; sourceTree = "<group>"; };
+		D8070DCF218F7CE400667205 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,16 @@
 		D8070D8B218F7AD800667205 /* AppExample */ = {
 			isa = PBXGroup;
 			children = (
+				D8070DDF218F7FB500667205 /* model */,
+				D8070DC3218F7C0900667205 /* ViewControllerForTab1.swift */,
+				D8070DC6218F7C0900667205 /* ViewControllerForTab2.swift */,
+				D8070DC5218F7C0900667205 /* ViewControllerForTab3.swift */,
+				D8070DC4218F7C0900667205 /* CustomTableView.swift */,
+				D8070DC7218F7CE400667205 /* cells */,
+				D8070DCB218F7CE400667205 /* component */,
+				D8070DC2218F7BF600667205 /* vc */,
 				D8070D8C218F7AD800667205 /* AppDelegate.swift */,
-				D8070D8E218F7AD800667205 /* ViewController.swift */,
-				D8070D90218F7AD800667205 /* Main.storyboard */,
+				D8070D8E218F7AD800667205 /* MainViewController.swift */,
 				D8070D93218F7ADA00667205 /* Assets.xcassets */,
 				D8070D95218F7ADA00667205 /* LaunchScreen.storyboard */,
 				D8070D98218F7ADA00667205 /* Info.plist */,
@@ -123,6 +148,42 @@
 				D8070DAE218F7ADA00667205 /* Info.plist */,
 			);
 			path = AppExampleUITests;
+			sourceTree = "<group>";
+		};
+		D8070DC2218F7BF600667205 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		D8070DC7218F7CE400667205 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				D8070DC8218F7CE400667205 /* RadioGroupCell.swift */,
+				D8070DC9218F7CE400667205 /* SwitchCell.swift */,
+				D8070DCA218F7CE400667205 /* EditTextCell.swift */,
+			);
+			name = cells;
+			path = ../../customTableView/customTableView/cells;
+			sourceTree = "<group>";
+		};
+		D8070DCB218F7CE400667205 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				D8070DCC218F7CE400667205 /* RadioButtonController.swift */,
+				D8070DCD218F7CE400667205 /* EditText.swift */,
+				D8070DCF218F7CE400667205 /* RadioButton.swift */,
+			);
+			name = component;
+			path = ../../customTableView/customTableView/component;
+			sourceTree = "<group>";
+		};
+		D8070DDF218F7FB500667205 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +292,6 @@
 			files = (
 				D8070D97218F7ADA00667205 /* LaunchScreen.storyboard in Resources */,
 				D8070D94218F7ADA00667205 /* Assets.xcassets in Resources */,
-				D8070D92218F7AD800667205 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +316,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8070D8F218F7AD800667205 /* ViewController.swift in Sources */,
+				D8070DD8218F7D8B00667205 /* ViewControllerForTab3.swift in Sources */,
+				D8070DD7218F7D8B00667205 /* ViewControllerForTab1.swift in Sources */,
+				D8070DD9218F7D8B00667205 /* ViewControllerForTab2.swift in Sources */,
+				D8070DD6218F7CE400667205 /* RadioButton.swift in Sources */,
+				D8070D8F218F7AD800667205 /* MainViewController.swift in Sources */,
+				D8070DD1218F7CE400667205 /* SwitchCell.swift in Sources */,
+				D8070DD0218F7CE400667205 /* RadioGroupCell.swift in Sources */,
+				D8070DDA218F7D8B00667205 /* CustomTableView.swift in Sources */,
+				D8070DD4218F7CE400667205 /* EditText.swift in Sources */,
+				D8070DD2218F7CE400667205 /* EditTextCell.swift in Sources */,
 				D8070D8D218F7AD800667205 /* AppDelegate.swift in Sources */,
+				D8070DD3218F7CE400667205 /* RadioButtonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +363,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8070D90218F7AD800667205 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8070D91218F7AD800667205 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8070D95218F7ADA00667205 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
